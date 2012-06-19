@@ -8,3 +8,11 @@ fi
 # User specific aliases and functions
 alias cd="pushd"
 alias bd="popd"
+
+# User specific aliases and functions
+PATH=$HOME/local/bin:$PATH:$HOME/bin
+export SVN_EDITOR=vim                  #SVNコミット時のメッセージエディタ
+
+# history
+HISTTIMEFORMAT=’%Y-%m-%d %T ‘
+
