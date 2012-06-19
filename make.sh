@@ -1,7 +1,7 @@
 #!/bin/sh
 
-cp .vimrc ~/
-cp .bashrc ~/
-cp -r .vim ~/
+cp -i .vimrc ~/
+cp -i .bashrc ~/
+cp -i -r .vim ~/
 
 echo 'finished.'
