@@ -16,3 +16,8 @@ export SVN_EDITOR=vim                  #SVNコミット時のメッセージエ�
 # history
 HISTTIMEFORMAT=’%Y-%m-%d %T ‘
 
+# git completion
+if [ -f $HOME/myconf/git-completion.bash ]; then
+    . $HOME/myconf/git-completion.bash
+fi
+
