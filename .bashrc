@@ -8,6 +8,7 @@ fi
 # User specific aliases and functions
 alias cd="pushd"
 alias bd="popd"
+alias g="git"
 
 # User specific aliases and functions
 PATH=$HOME/local/bin:$PATH:$HOME/bin
